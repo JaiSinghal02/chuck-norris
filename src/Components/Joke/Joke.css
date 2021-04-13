@@ -1,0 +1,35 @@
+.joke-container{
+    width:100%;
+    max-width: 380px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joke-category{
+    margin: 5px;
+    font-weight:500;
+    font-size: 13px;
+}
+
+.joke-body{
+    width:90%;
+    min-height: 220px;
+    background-color: #3395ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e2f0ff;
+}
+.joke-new-joke{
+    margin-top: 15px;
+}
+.joke-new-joke button{
+    outline: none;
+    background-color: #ffff;
+    color: #3395ff;
+    border-width: 0;
+}
+.joke-new-joke button:hover{
+    cursor: pointer;
+}
